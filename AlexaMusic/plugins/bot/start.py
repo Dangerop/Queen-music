@@ -95,7 +95,7 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/QN_Team_support) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
+                        msg += f"🔗[ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ](https://t.me/alone_support) ** ᴩʟᴀʏᴇᴅ {count} ᴛɪᴍᴇs**\n\n"
                     else:
                         msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
@@ -288,6 +288,6 @@ async def start(client: Client, message: Message):
         caption=f"""━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ʜᴇʟʟᴏ,ᴍɪꜱꜱ_ᴏᴘ_Qᴜᴇᴇɴ  ɪs ᴡᴏʀᴋɪɴɢ ᴀɴᴅ ғᴜɴᴄᴛɪᴏɴɪɴɢ ᴘʀᴏᴘᴇʀʟʏ\n✪ ᴛʜᴀɴᴋs ᴛᴏ ʏᴜᴋᴋɪ ᴛᴇᴀᴍ 🌼 ..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [𝐃𝐚𝐧𝐠𝐞𝐫 Choudhary](https://t.me/ABOUT_CHOUDHARY)\n┣★ ᴜᴘᴅᴀᴛᴇs › : [Qᴜᴇᴇɴ ʜᴇʟᴘ](https://t.me/QN_Team_support)┓\n┣★ ʀᴇᴘᴏ › : [Qᴜᴇᴇɴ ʀᴇᴘᴏ](https://github.com/Dangerop/Queen-music)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/D4nGeR_0pBolte) ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ sᴛᴀʀ ᴏᴜʀ ᴘʀᴏᴊᴇᴄᴛ ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━
 """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("🌼 Qᴜᴇᴇɴ  ᴄʜᴀᴛ 💮", url=f"https://t.me/QN_Team_support")]]
+            [[InlineKeyboardButton("🌼 Qᴜᴇᴇɴ  ᴄʜᴀᴛ 💮", url=f"https://t.me/alone_support")]]
         ),
     )
