@@ -21,7 +21,7 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "18476081"))
 API_HASH = getenv("API_HASH", "23890e56461cadc753694bd8dfaf0227")
 
-BOT_TOKEN = getenv("BOT_TOKEN", "5950891479:AAGC9eeuN3MrW2gB9D9tCaoilhCpGd7QAAI")
+BOT_TOKEN = getenv("BOT_TOKEN", "5921128317:AAEemK6OPaEHUVS6b5fzOBYwPwbzR3pRhTg")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://vcbot:vcbot@cluster0.yqipgxg.mongodb.net/?retryWrites=true&w=majority")
 
@@ -31,7 +31,7 @@ SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001618068091"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "harsh【🇭🇺】")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "HARSH❰🇮🇳❱")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5897579715").split()))
 
