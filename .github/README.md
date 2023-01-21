@@ -131,11 +131,11 @@
 
 ## sᴘᴇᴄɪᴀʟ ᴄʀᴇᴅɪᴛ
 
-- [ABOUT FOUNDER](https://t.me/ABOUT_CHOUDHARY)
-- [DANGER OP](https://github.com/Dangerop)
-- [DANGER TELEGRAM](https://t.me/D4nGeR_0pBolte)
-- [Danger Chats](https://t.me/QN_Team_support)
-- [DANGER op](https://github.com/Dangerop)
+- [ABOUT FOUNDER](https://t.me/alone_support)
+- [HARSH OP](https://t.me/alone_support)
+- [HARSH TELEGRAM](https://t.me/alone_support)
+- [Harsh Chats](https://t.me/alone_support)
+- [Harsh op](https://t.me/alone_support)
 
 </details>
 
@@ -143,8 +143,8 @@
 <summary><b>ʙʀᴏᴛʜᴇʀ</b></summary>
 <br>
 
-- [Choudhary](https://t.me/D4nGeR_0pBolte)
-- [love](https://t.me/QN_Team_support)
+- [HARSH](https://t.me/alone_support)
+- [love](https://t.me/alone_support)
 
 </details>
 
@@ -153,10 +153,10 @@
 <br>
 
 # ❤️ Support
-<a href="https://t.me/ABOUT_CHOUDHARY"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
-<a href="https://t.me/QN_Team_support"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
-<a href="https://t.me/The_Friends_Chatting"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
-<a href="https://t.me/FOR_Unfban"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="https://t.me/alone_support"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/alone_support"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+<a href="https://t.me/alone_support"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
+<a href="https://t.me/alone_support"><img src="https://img.shields.io/badge/Give-Me%20Heart-blue.svg?logo=telegram"></a>
 
 </details>
 
