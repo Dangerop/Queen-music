@@ -54,16 +54,16 @@ def dbb():
 
 
 def sudo():
-    global OWNER
-    sudoers = config.OWNER_ID
+    global sudoers
+    OWNER = config.OWNER_ID
     if config.MONGO_DB_URI is None:
-        for user_id in sudoers:
+        for user_id in OWNER:
             sudoers.add(user_id)
     else:
         sudoersdb = pymongodb.sudoers
         sudoers = sudoersdb.find_one({"sudo": "sudo"})
-        sudoers = [] if not sudoers else sudoers["sudo"]
-        for user_id in sudoers:
+        sudoers = [] if not sudoers else sudoers["sudoers"]
+        for user_id in OWNER:
             sudoers.add(user_id)
             if user_id not in sudoers:
                 sudoers.append(user_id)
