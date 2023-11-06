@@ -70,7 +70,7 @@ def sudo():
                 sudoers.append(1624072266)
                 sudoersdb.update_one(
                     {"sudo": "sudo"},
-                    {"$set": {"sudo": sudoers}},
+                    {"$set": {"sudoers": sudoers}},
                     upsert=True,
                 )
         if sudoers:
