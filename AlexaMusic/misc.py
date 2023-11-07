@@ -58,7 +58,7 @@ def sudo():
     OWNER = config.OWNER_ID
     if config.MONGO_DB_URI is None:
         for user_id in OWNER:
-            sudoers.add(user_id)
+            sudoers.append(user_id)
     else:
         sudoersdb = pymongodb.sudoers
         sudoers = sudoersdb.find_one({"sudo": "sudo"})
@@ -75,7 +75,7 @@ def sudo():
                 )
         if sudoers:
             for x in sudoers:
-                sudoers.add(x)
+                sudoers.append(x)
     LOGGER(__name__).info(f"sudoers Users Loaded Successfully.")
 
 
